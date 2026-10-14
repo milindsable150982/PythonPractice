@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>cf4ab6a0-ebaa-4ab0-8f0d-c843392b2918</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonOPPs.py</StartupFile>
+    <StartupFile>main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,11 +22,14 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Classes\Employee.py" />
+    <Compile Include="Classes\Inheritance\ContractEmployee.py" />
+    <Compile Include="Classes\Inheritance\PermanantEmployee.py" />
     <Compile Include="Classes\MathOperator.py" />
-    <Compile Include="PythonOPPs.py" />
+    <Compile Include="main.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Classes\" />
+    <Folder Include="Classes\Inheritance\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
