@@ -71,3 +71,25 @@ for index, day in day_Dict.items():
 
 best_day = day_Dict.copy()
 print(best_day)
+
+
+#Fibonacci sequence
+a = 0
+b = 1
+for i in range(10):
+    if(i<=1):
+       print(i)
+    else:
+        next_val = a + b
+        print(next_val)
+        a, b = b, next_val
+
+
+#polyndrom string
+name = "Milind"
+for i in range(len(name)//2):
+    if name[i] != name[len(name)-1-i]:
+        print("Not a polyndrom")
+        break
+else:
+    print("It is a polyndrom")
